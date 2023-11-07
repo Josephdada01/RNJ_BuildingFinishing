@@ -4,13 +4,17 @@ body {
 }
 .flex-container{
   display: flex;
-  flex-direction: column;
-  height: 100vh; 
+  flex-direction: column; 
 }
 .flex-container .header{
         background: #1F2937;
         flex: 1;
         text-align: justify;
+        position: relative;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        justify-content: space-between;
 }
 .main-title {
     padding: 48px;
@@ -19,7 +23,8 @@ body {
 }
 .main-title h1 {
     font-size: 35px;
-    font-weight: 20px;
+    font-weight: bold;
+    max-width: 40%;
 }
 .main-title h3{
     font-size: 18px;
@@ -27,4 +32,12 @@ body {
     text-align: justify;
     max-width: 40%;
     margin-top: 5px;
+}
+.pic0-image{
+    margin-left: 600px;
+    height: 500px;
+    justify-content: center;
+    background: url("/image/pic2.jpeg") no-repeat center;
+    margin-top: -250px;
+    background-position: center bottom;
 }
