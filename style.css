@@ -40,7 +40,7 @@ body {
 .pic0-image{
     width: auto;
     margin-left: 600px;
-    margin-top: -200px;
+    margin-top: -250px;
     height: 300px;
     justify-content: center;
     background: url("/image/pic2.jpeg") no-repeat center;
@@ -71,14 +71,13 @@ body {
     margin-top: -300px;
     padding: 48px;
     background: url("/image/logo.jpeg") no-repeat center;*/
-    width: 302px;
-    height: 60px;
-    color: rebeccapurple;
+    
+    /*color: white;
     font-size: 32px;
     font-weight: 900;
     font-style: italic;
     align-self: flex-start;
-    padding-left: 20px;
+    padding-left: 48px;*
     
     /*background: url("/image/logo.jpeg") no-repeat center*/
 }
