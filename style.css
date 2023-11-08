@@ -9,35 +9,34 @@ body {
     justify-content: flex-start; 
     height: 200px;*/ 
 }
-.flex-container .header{
+.header{
         background: #1F2937;
         flex: 1;
-        text-align: justify;
-        position: relative;
         display: flex;
-        align-items: center;
         max-width: 100%;
-        justify-content: space-between;
         border-bottom: 2px solid black;
+        align-items: top; /* Center items vertically */
+        justify-content: space-between; /* Create space between items */
 }
 .main-title {
-    padding: 48px;
-    color: aliceblue;
+    color: #F9FAF8;
     text-align: justify;
+    padding: 30px;
 }
 .main-title h1 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: bold;
-    max-width: 40%;
+    max-width: 28%;
+    color: #F9FAF8;
 }
 .main-title h3{
     font-size: 18px;
-    color: aliceblue;
+    color: #F9FAF8;
     text-align: justify;
     max-width: 40%;
     margin-top: 5px;
 }
-.pic0-image{
+.pic2-image{
     width: auto;
     margin-left: 600px;
     margin-top: -250px;
@@ -46,38 +45,21 @@ body {
     background: url("/image/pic2.jpeg") no-repeat center;
     background-size: cover;
 }
-.logo-pic{
-    /*background: url("/image/logo.jpeg") no-repeat center;
-    width: 102px;
-    height: 300px;
-    margin-right: 300px;
-    padding-left: 20px;
-    margin-top: -300px;
-    color: rebeccapurple;
-    font-size: 32px;
-    font-weight: 900;
-    font-style: italic;
-    margin-top: -300px;
-    padding: 48px;
-
-    background: url("/image/logo.jpeg") no-repeat center;
-    width: 102px;
-    height: 300px;
-    margin-right: 300px;
-    color: rebeccapurple;
-    font-size: 32px;
-    font-weight: 900;
-    font-style: italic;
-    margin-top: -300px;
-    padding: 48px;
-    background: url("/image/logo.jpeg") no-repeat center;*/
-    
-    /*color: white;
-    font-size: 32px;
-    font-weight: 900;
-    font-style: italic;
+.logo{
+    max-width: 100px;
     align-self: flex-start;
-    padding-left: 48px;*
-    
-    /*background: url("/image/logo.jpeg") no-repeat center*/
+    padding-top: 4px;
+    padding-left: 10px;
+    height: 20px;
 }
+.button{
+    background-color: blue;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: blue;
+}
+/*ul{
+    list-style-type: none;
+    text-decoration: none;
+    align-self: flex-end;
+}*/
