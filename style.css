@@ -4,7 +4,10 @@ body {
 }
 .flex-container{
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  /*align-items: center;
+    justify-content: flex-start; 
+    height: 200px;*/ 
 }
 .flex-container .header{
         background: #1F2937;
@@ -15,6 +18,7 @@ body {
         align-items: center;
         max-width: 100%;
         justify-content: space-between;
+        border-bottom: 2px solid black;
 }
 .main-title {
     padding: 48px;
@@ -34,10 +38,47 @@ body {
     margin-top: 5px;
 }
 .pic0-image{
+    width: auto;
     margin-left: 600px;
-    height: 500px;
+    margin-top: -200px;
+    height: 300px;
     justify-content: center;
     background: url("/image/pic2.jpeg") no-repeat center;
-    margin-top: -250px;
-    background-position: center bottom;
+    background-size: cover;
+}
+.logo-pic{
+    /*background: url("/image/logo.jpeg") no-repeat center;
+    width: 102px;
+    height: 300px;
+    margin-right: 300px;
+    padding-left: 20px;
+    margin-top: -300px;
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: -300px;
+    padding: 48px;
+
+    background: url("/image/logo.jpeg") no-repeat center;
+    width: 102px;
+    height: 300px;
+    margin-right: 300px;
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: -300px;
+    padding: 48px;
+    background: url("/image/logo.jpeg") no-repeat center;*/
+    width: 302px;
+    height: 60px;
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    align-self: flex-start;
+    padding-left: 20px;
+    
+    /*background: url("/image/logo.jpeg") no-repeat center*/
 }
