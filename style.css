@@ -49,7 +49,7 @@ body {
     margin-right: 30px;
     height: 300px;
     justify-content: center;
-    background: url("/image/pic2.jpeg") no-repeat center;
+    background: url("image/pic2.jpeg") no-repeat center;
     background-size: cover;
     flex: 1;
 }
@@ -87,10 +87,36 @@ header a {
     text-align: center;
 }
 section{
-    background-color: #E5E7E5;
+    background-color: #818FB4;
     flex: 1;
     display: flex;
 }
-section h2{
+
+.right-place{
+    padding: 50px;
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-left: 80px;
+}
+.project{
+    text-align: center;
+    flex: 1;
+    flex-direction: column;
+    margin: 30px;
+}
+.pic1-image{
+    background: url("image/pic1.jpeg") no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 300px;
+    margin-top: 20px;
+}
+.pic1-image{
+    background: url("image/pic4.jpeg") no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 400px;
+    margin-top: 20px;
+    align-self: flex-start;
 }
 
