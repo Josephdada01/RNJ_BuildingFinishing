@@ -2,6 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
     flex: 1;
+    font-family: 'Times New Roman', Times, serif;
 }
 .flex-container{
   display: flex;
@@ -31,6 +32,7 @@ body {
     max-width: auto;
     color: #F9FAF8;
     flex: 1;
+    
 }
 .main-title h3{
     font-size: 18px;
@@ -51,35 +53,44 @@ body {
     background-size: cover;
     flex: 1;
 }
-header .logo{
-    max-width: 100px;
-    align-self: flex-start;
-    padding-top: 4px;
-    padding-left: 10px;
-    height: 20px;
-}
 .button{
-    background-color: rgb(157, 74, 240);
+    background-color: #3882F6;
     color: black;
     border-radius: 10px;
-    border: rgb(157, 74, 240);
+    border: #3882F6;
     opacity: 1;
 }
 header{
-    text-align: center;
-    padding: 10px 0;
-    background: #1F2937;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    background: #1F2937;
+    text-align: center;
 }
+/*.logo{
+    width: auto;
+    height: 50px;
+    margin-left: auto;
+    background: url("image/logo.jpeg") no-repeat center;
+    padding-left: 20px;
+}*/
 header a {
     margin: 0 20px;
     text-decoration: none;
     color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+section{
+    background-color: #E5E7E5;
+    flex: 1;
+    display: flex;
+}
+section h2{
 }
 
