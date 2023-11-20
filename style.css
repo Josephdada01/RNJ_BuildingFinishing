@@ -30,13 +30,13 @@ body {
     font-size: 32px;
     font-weight: bold;
     max-width: auto;
-    color: #F9FAF8;
+    color: #ccc;
     flex: 1;
     
 }
 .main-title h3{
     font-size: 18px;
-    color: #F9FAF8;
+    color: #ccc;
     text-align: justify;
     max-width: 40%;
     margin-top: 5px;
@@ -54,10 +54,10 @@ body {
     flex: 1;
 }
 .button{
-    background-color: #3882F6;
-    color: black;
+    background-color: #ccc;
+    color: #1F2937;
     border-radius: 10px;
-    border: #3882F6;
+    border: #ccc;
     opacity: 1;
 }
 header{
@@ -80,7 +80,7 @@ header{
 header a {
     margin: 0 20px;
     text-decoration: none;
-    color: #F9FAF8;
+    color: #ccc;
     font-size: 18px;
     font-weight: bold;
     align-items: center;
@@ -134,7 +134,7 @@ section{
 }
 .reason {
     padding-bottom: 12px;
-    font-size: 25px;
+    font-size: 18px;
     color: #1F2937;
 }
 .pictures-text {
@@ -162,6 +162,7 @@ quotes {
     height: 100px;
     width: 100%;
     background: #1F2937;
+    border-bottom: 1px solid #ccc;
 }
 quotes .text-quote {
     justify-self: center;
@@ -170,4 +171,35 @@ quotes .text-quote {
     margin: 0 20px;
     margin-top: 45px;
     color: #F9FAF8;
+}
+.call {
+    display: flex;
+    flex: 1;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #F9FAF8;
+    justify-content: center;
+}
+.call-to-action {
+    background-color: #1F2937;
+    display: flex;
+    gap: 550px;
+    padding: 45px 30px;
+    border-radius: 8px;
+}
+.call-to-action p, h4 {
+    color: #ccc;
+}
+.talk-to-us button{
+    background-color: #ccc;
+    color: #1F2937;
+    padding: 7px 10px;
+    justify-self: center;
+    margin-top: 45px;
+}
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 18px 0;
+    color: #ccc;
 }
