@@ -135,7 +135,6 @@ section{
 .reason {
     padding-bottom: 12px;
     font-size: 25px;
-    font-weight: bold;
     color: #1F2937;
 }
 .pictures-text {
@@ -154,6 +153,21 @@ section{
     height: 170px;
 }
 .info-pictures .text {
-    color: #1F2937;
-    font-weight: bold;
+    color: black;
+}
+quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: #1F2937;
+}
+quotes .text-quote {
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    margin-top: 45px;
+    color: #F9FAF8;
 }
